@@ -1,17 +1,34 @@
 const types = ['primary', 'secondary', 'primary-outline', 'secondary-outline'];
+const sharedStyle = {
+  padding: '8px 16px',
+  borderRadius: '4px',
+  fontSize: '16px',
+  display: 'block',
+  margin: '0 auto'
+}
+
 const primaryStyle = {
-  backgroundColor: '#3EACA8'
+  ...sharedStyle,
+  backgroundColor: '#3EACA8',
+  color: '#FFFFFF',
+  border: 'none'
 }
 const secondaryStyle = {
-  backgroundColor: '#C4C4C4'
+  ...sharedStyle,
+  backgroundColor: '#C4C4C4',
+  border: 'none'
 }
 const primaryOutlineStyle = {
+  ...sharedStyle,
   backgroundColor: '#FFFFFF',
-  outline: '2px solid #3EACA8'
+  border: '2px solid #3EACA8',
+  color: '#3EACA8'
 }
 const secondaryOutlineStyle = {
+  ...sharedStyle,
   backgroundColor: '#FFFFFF',
-  outline: '2px solid #2F2E41'
+  border: '2px solid #2F2E41',
+  color: '#2F2E41'
 }
 
 function selectStyle(style) {

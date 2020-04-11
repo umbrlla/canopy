@@ -4,12 +4,13 @@ import { types, selectStyle } from './constants';
 
 function Button(props) {
   const { onClick, type, value } = props;
+  const buttonStyle = selectStyle(type);
 
   return (
     <button
       onClick={onClick}
       type={type}
-      style={selectStyle(type)}
+      style={buttonStyle}
     >
       {value}
     </button>
@@ -19,7 +20,7 @@ function Button(props) {
 Button.propTypes = {
   onClick: PropTypes.func,
   type: PropTypes.oneOf(types).isRequired,
-  value: PropTypes.string
+  value: PropTypes.string.isRequired
 }
 
 export { Button };
