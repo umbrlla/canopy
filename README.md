@@ -2,7 +2,7 @@
 A collection of reusable UI components for **umbrlla**.
 
 ## Components
-* Button (WIP)
+* Button
 * Select
 * Input
 * Checkbox
