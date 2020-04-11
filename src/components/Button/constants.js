@@ -1,10 +1,7 @@
 const types = ['primary', 'secondary', 'primary-outline', 'secondary-outline'];
 const sharedStyle = {
-  padding: '8px 16px',
-  borderRadius: '4px',
-  fontSize: '16px',
-  display: 'block',
-  margin: '0 auto'
+  padding: '10px 16px 8px 16px',
+  fontSize: '16px'
 }
 
 const primaryStyle = {

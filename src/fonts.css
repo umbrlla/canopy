@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Geomanist";
+  src: url("./assets/fonts/hinted-Geomanist-Medium.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Geomanist";
+  src: url("./assets/fonts/hinted-Geomanist-Ultra.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Geomanist";
+  src: url("./assets/fonts/hinted-Geomanist-Regular.ttf");
+  font-weight: 400;
+}

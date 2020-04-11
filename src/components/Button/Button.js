@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { types, selectStyle } from './constants';
+import '../../fonts.css';
+import './Button.css';
 
 function Button(props) {
   const { onClick, type, value } = props;
@@ -8,6 +10,7 @@ function Button(props) {
 
   return (
     <button
+      className="canopy__button"
       onClick={onClick}
       type={type}
       style={buttonStyle}

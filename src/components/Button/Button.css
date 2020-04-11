@@ -1,0 +1,15 @@
+.canopy__button {
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  font-family: "Geomanist"
+}
+
+.canopy__button:hover {
+  cursor: pointer;
+}
+
+.canopy__button:focus {
+  outline: none;
+}
