@@ -1,16 +1,19 @@
 .canopy__input {
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 16px;
   display: block;
   margin: 0 auto;
   border-radius: 4px;
   font-family: "Geomanist";
   border: 0px;
-  padding: 0.75%;
+  padding: 8px;
   background-color: #F4F4F4;
+  text-color: #403B3B;
 }
 
-.canopy__input:hover {
-  cursor: text;
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #BBBBBB;
+  opacity: 1; /* Firefox */
 }
 
 .canopy__input:focus {

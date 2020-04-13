@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { types, selectStyle } from './constants';
+import { types } from './constants';
 import '../../fonts.css';
 import './Input.css';
 
