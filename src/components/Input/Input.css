@@ -1,14 +1,14 @@
 .canopy__input {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 16px;
   display: block;
   margin: 0 auto;
   border-radius: 4px;
   font-family: "Geomanist";
   border: 0px;
-  padding: 8px;
+  padding: 16px;
   background-color: #F4F4F4;
-  text-color: #403B3B;
+  color: #403B3B;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
